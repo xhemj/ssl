@@ -9,7 +9,7 @@ script:
   - npm run build
   - cd CheckSSL
   - chmod +x checker.sh
-  - ./checker.sh xhemj.js.org mingyan.js.org xhemj.eu.org www.xhemj.eu.org
+  - ./checker.sh mingyan.js.org xhemj.eu.org www.xhemj.eu.org ssl.xhemj.eu.org cn.mingyan.js.org xhemj.js.org
   - cp -rf ./output/ct.json ../public/ct.json
 branches:
   only:
